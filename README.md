@@ -106,9 +106,15 @@ This allows the server to process many requests simultaneously while maintaining
 
 # Network Protocol Implementation
 
-The server communicates using HTTP over TCP.
+The server communicates using HTTP.
 
 ### Request
+
+Server:
+
+```
+localhost:8080
+```
 
 Method:
 
