@@ -40,9 +40,9 @@ Account Balances Updated
 
 ## Components
 
-### 1. HTTP Server (`Main.java`)
+### 1. HTTP Server (Main.java)
 
-The server is built using Java's built-in `HttpServer`.
+The server is built using Java's built-in HttpServer.
 
 Responsibilities:
 
@@ -69,7 +69,7 @@ Example request body:
 
 ---
 
-### 2. Transaction Record (`Transaction.java`)
+### 2. Transaction Record (Transaction.java)
 
 Transactions are represented using a Java record.
 
@@ -81,7 +81,7 @@ Each transaction contains these values:
 
 ---
 
-### 3. Ledger (`Ledger.java`)
+### 3. Ledger (Ledger.java)
 
 The ledger maintains account balances using a Concurrent Hashmap.
 
@@ -106,7 +106,7 @@ This allows the server to process many requests simultaneously while maintaining
 
 # Network Protocol Implementation
 
-The server communicates using **HTTP over TCP**.
+The server communicates using HTTP over TCP.
 
 ### Request
 

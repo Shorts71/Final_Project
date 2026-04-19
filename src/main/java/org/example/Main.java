@@ -89,6 +89,6 @@ public class Main {
 
         server.start();
 
-        System.out.println("Financial Messaging Server running on port " + server.getAddress().getPort() + ".");
+        System.out.println("Server running on port " + server.getAddress().getPort() + ".");
     }
 }
